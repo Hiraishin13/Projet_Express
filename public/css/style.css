@@ -1,0 +1,96 @@
+/* Assurez-vous que le texte est centré */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    background: #007bff; /* Couleur de fond bleue de Bootstrap */
+    color: #fff; /* Texte blanc */
+}
+
+.text-center {
+    padding: 2rem;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1.25rem;
+    margin-top: 0;
+}
+
+/* Ajouter une animation d'apparition */
+.animate__animated {
+    animation-duration: 2s;
+}
+
+.animate__fadeIn {
+    animation-name: fadeIn;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.navbar-brand {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #007bff;
+    transition: color 0.3s ease;
+}
+
+.navbar-brand:hover {
+    color: #0056b3; /* Couleur au survol */
+}
+
+.navbar-brand i {
+    margin-right: 0.5rem; /* Espacement entre l'icône et le texte */
+    font-size: 1.5rem; /* Taille de l'icône */
+}
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    flex: 1;
+}
+
+footer {
+    background-color: #f8f9fa;
+    padding: 1rem 0;
+    text-align: center;
+    margin-top: auto;
+}
+/* Animation pour le bouton au survol */
+.btn-primary {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-primary:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+/* Animation pour les cartes de service */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
