@@ -20,7 +20,7 @@
     <!-- Main Content -->
     <main class="d-flex flex-column justify-content-center align-items-center vh-100 bg-primary text-white">
         <div class="text-center">
-            <h1 class="display-4 animate__animated animate__fadeIn animate__delay-1s">Bienvenue sur VotreSite</h1>
+            <h1 class="display-4 animate__animated animate__fadeIn animate__delay-1s">Bienvenue sur PriscaExpress</h1>
             <p class="lead animate__animated animate__fadeIn animate__delay-2s">Découvrez nos services et produits de qualité avec une expérience inégalée.</p>
             <!-- Buttons Container -->
             <div class="btn-group mt-4 animate__animated animate__fadeIn animate__delay-3s">
